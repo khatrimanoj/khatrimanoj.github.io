@@ -94,3 +94,15 @@ html {
 .animate-float {
   animation: float 6s ease-in-out infinite;
 }
+
+.site-progress {
+  width: 0;
+  height: 4px;
+  animation: grow linear forwards;
+  animation-timeline: scroll();
+}
+@keyframes grow {
+  to {
+    width: 100%;
+  }
+}
