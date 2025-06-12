@@ -308,13 +308,31 @@ export default function Portfolio() {
             transition={{ duration: 0.8, delay: 0.5 }}
           >
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Button size="lg" className="bg-primary hover:bg-primary/90 group">
-                <Target className="mr-2 h-4 w-4" />
+              <Button size="lg" className="bg-primary hover:bg-primary/90 group" 
+              onClick={() => {
+                const el = document.getElementById('projects');
+                if (el) {
+                  el.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}>
+                <Target className="mr-2 h-4 w-4 group-hover:rotate-90 transition-transform" />
                 View My Work
               </Button>
             </motion.div>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Button size="lg" variant="outline" className="group">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="group"
+                onClick={() => {
+                  const link = document.createElement('a');
+                  link.href = '/ManojKhatri-cv.pdf';
+                  link.download = 'Manoj_Khatri_Resume.pdf';
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }}
+              >
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
               </Button>
