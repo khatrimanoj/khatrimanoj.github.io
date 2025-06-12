@@ -61,11 +61,6 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
                   </a>
                 </Button>
               </motion.div>
-              <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                <Button size="sm" variant="secondary">
-                  <Github size={16} />
-                </Button>
-              </motion.div>
             </div>
           </div>
           <motion.div

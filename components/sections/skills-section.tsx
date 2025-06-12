@@ -22,20 +22,19 @@ import {
   Award,
 } from "lucide-react"
 
-const skills = [
-  { name: "JavaScript (ES6+)", level: 95, icon: Code2 },
-  { name: "React.js", level: 90, icon: Rocket },
-  { name: "HTML5/CSS3", level: 95, icon: Globe },
-  { name: "SCSS/Sass", level: 90, icon: Palette },
-  { name: "Vue.js", level: 85, icon: Zap },
-  { name: "WordPress", level: 85, icon: Layers },
-  { name: "Shopify", level: 80, icon: Target },
-  { name: "Webflow", level: 85, icon: Monitor },
-  { name: "TailwindCSS", level: 90, icon: Smartphone },
-  { name: "Bootstrap", level: 90, icon: Users },
-  { name: "jQuery", level: 85, icon: Coffee },
-  { name: "PHP", level: 75, icon: Star },
-]
+  const skills = [
+    { name: "JavaScript (ES6+)", level: 75, icon: Code2 },
+    { name: "React.js", level: 55, icon: Rocket },
+    { name: "HTML5/CSS3", level: 95, icon: Globe },
+    { name: "SCSS/Sass", level: 90, icon: Palette },
+    { name: "WordPress", level: 75, icon: Layers },
+    { name: "Shopify", level: 45, icon: Target },
+    { name: "Webflow", level: 65, icon: Monitor },
+    { name: "TailwindCSS", level: 65, icon: Smartphone },
+    { name: "Bootstrap", level: 90, icon: Users },
+    { name: "jQuery", level: 80, icon: Coffee },
+    { name: "PHP", level: 45, icon: Star },
+  ]
 
 const services = [
   {
