@@ -1,5 +1,7 @@
-# Manoj Khatri - Portfolio Website [https://manojkhatri-portfolio.netlify.app/]
-[click here](www.google.com)
+# Manoj Khatri - Portfolio Website 
+[Portfolio Link](https://manojkhatri-portfolio.netlify.app/)
+
+
 A modern, responsive portfolio website built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
 
 ## Features
