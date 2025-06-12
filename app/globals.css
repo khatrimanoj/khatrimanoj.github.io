@@ -106,3 +106,28 @@ html {
     width: 100%;
   }
 }
+
+@-webkit-keyframes grow {
+  to {
+    width: 100%;
+  }
+}
+
+@-moz-keyframes grow {
+  to {
+    width: 100%;
+  }
+}
+
+@-ms-keyframes grow {
+  to {
+    width: 100%;
+  }
+}
+
+@-o-keyframes grow {
+  to {
+    width: 100%;
+  }
+}
+
