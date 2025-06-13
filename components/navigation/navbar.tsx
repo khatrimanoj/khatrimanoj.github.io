@@ -29,7 +29,8 @@ export function Navbar() {
       <div className="site-progress bg-green-500"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <motion.div className="text-2xl font-bold flex items-center gap-2" whileHover={{ scale: 1.05 }}>
+          <motion.a className="text-2xl font-bold flex items-center gap-2" whileHover={{ scale: 1.05 }}
+            href={`/`}>
             <motion.div
               animate={{ rotate: 360 }}
               transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
@@ -37,7 +38,7 @@ export function Navbar() {
               <Code2 className="text-primary" size={28} />
             </motion.div>
             Manoj Khatri
-          </motion.div>
+          </motion.a>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">

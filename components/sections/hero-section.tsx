@@ -91,7 +91,7 @@ export function HeroSection() {
               className="group"
               onClick={() => {
                 const link = document.createElement("a")
-                link.href = "/resume.pdf"
+                link.href = "/ManojKhatri-CV.pdf"
                 link.download = "Manoj_Khatri_Resume.pdf"
                 document.body.appendChild(link)
                 link.click()
